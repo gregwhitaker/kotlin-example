@@ -1,5 +1,7 @@
 kotlin-example
 ===
+[![Build Status](https://travis-ci.org/gregwhitaker/kotlin-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/kotlin-example)
+
 Example Kotlin application
 
 ##Running the Example
