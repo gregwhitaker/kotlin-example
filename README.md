@@ -2,7 +2,7 @@ kotlin-example
 ===
 [![Build Status](https://travis-ci.org/gregwhitaker/kotlin-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/kotlin-example)
 
-Example Kotlin application
+Simple Kotlin example application that makes an http call and parses the response.
 
 ##Running the Example
 The example can be run using the following Gradle command:
