@@ -26,11 +26,12 @@ fun main(args: Array<String>) {
         when(result) {
             is Result.Success -> {
                 println("The request origin was: " + result.value.origin)
-                exitProcess(1)
+                exitProcess(0)
             }
 
             is Result.Failure -> {
                 println("This thing exploded!")
+                exitProcess(1)
             }
         }
     }
