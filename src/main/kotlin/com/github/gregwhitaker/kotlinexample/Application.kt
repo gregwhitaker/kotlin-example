@@ -22,7 +22,7 @@ import com.github.kittinunf.result.Result
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
-    "http://httpbin.org/get".httpGet().responseObject(HttpBinResponse.Deserializer()) { request, response, result ->
+    "http://httpbin.org/get?test=1".httpGet().responseObject(HttpBinResponse.Deserializer()) { request, response, result ->
         when(result) {
             is Result.Success -> {
                 println("The request origin was: " + result.value.origin)
