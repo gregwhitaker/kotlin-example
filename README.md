@@ -1,17 +1,16 @@
-kotlin-example
-===
+# kotlin-example
 [![Build Status](https://travis-ci.org/gregwhitaker/kotlin-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/kotlin-example)
 
 Simple Kotlin example application that makes an http call and parses the response.
 
-##Running the Example
+## Running the Example
 The example can be run using the following Gradle command:
 
 ```
 $ ./gradlew run
 ```
 
-##License
+## License
 Copyright 2016 Greg Whitaker
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
